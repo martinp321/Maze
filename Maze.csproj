@@ -71,6 +71,10 @@
     <Compile Include="Assets\Scripts\MazeCellPassage.cs" />
     <Compile Include="Assets\Scripts\MazeCellWall.cs" />
     <Compile Include="Assets\Scripts\MazeDirection.cs" />
+    <Compile Include="Assets\Scripts\MazeDoor.cs" />
+    <Compile Include="Assets\Scripts\MazeRoom.cs" />
+    <Compile Include="Assets\Scripts\MazeRoomSettings.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
