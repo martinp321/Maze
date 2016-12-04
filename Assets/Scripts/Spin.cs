@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Player : MonoBehaviour {
+public class Spin : MonoBehaviour {
+
+    public float speed = 3.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -10,6 +12,7 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        transform.Rotate(0, speed, 0);
+	    
 	}
 }

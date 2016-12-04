@@ -19,7 +19,7 @@ public class Maze : MonoBehaviour
     public MazeCellPassage passagePrefab;
     private MazeCell[,] cells;
 
-    public float generationStepDelay = .1f;
+    public float generationStepDelay = 0f;
 
     [Range(0f, 1f)]
     public float doorProbability = .2f;
