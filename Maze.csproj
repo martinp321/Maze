@@ -67,6 +67,9 @@
     <Compile Include="Assets\Scripts\IntVector2.cs" />
     <Compile Include="Assets\Scripts\Maze.cs" />
     <Compile Include="Assets\Scripts\MazeCell.cs" />
+    <Compile Include="Assets\Scripts\MazeCellEdge.cs" />
+    <Compile Include="Assets\Scripts\MazeCellPassage.cs" />
+    <Compile Include="Assets\Scripts\MazeCellWall.cs" />
     <Compile Include="Assets\Scripts\MazeDirection.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
